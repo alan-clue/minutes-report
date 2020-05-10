@@ -31,7 +31,7 @@ module.exports = {
     port: 8383,
   },
   markdownit: {
-    // injected: true,
+    injected: true,
     breaks: true,
     linkify: true,
     use: [
